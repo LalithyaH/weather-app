@@ -1,0 +1,42 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+    background-image: url('weather.jpg');
+    margin: 0;
+}
+
+.weather-app {
+    font-family: 'Times New Roman', Times, serif;
+
+    text-align: center;
+    background-color: #bebebe; 
+    background-image: url('background1.jpg');
+    padding: 40px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(254, 250, 253);
+}
+
+#locationInput {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: calc(100% - 24px);
+}
+
+#searchButton {
+    padding: 10px 20px;
+    background-color: #327cd7; 
+    cursor: pointer;
+}
+
+#currentWeather, #forecast {
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
